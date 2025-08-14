@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Knowledge Drive",
+  "description": "A personal AI assistant that connects to your Google Drive, allowing you to build a knowledge base from your documents and chat with an AI that has access to that information.",
+  "requestFramePermissions": []
+}

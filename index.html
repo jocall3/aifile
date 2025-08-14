@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini Knowledge Drive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'dark': {
+                  600: '#374151',
+                  700: '#1f2937',
+                  800: '#111827',
+                  900: '#0d1117'
+              },
+              'light': '#f9fafb',
+              'primary': '#2563eb',
+              'secondary': '#4f46e5',
+              'accent': '#34d399',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.13.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.539.0",
+    "jspdf": "https://esm.sh/jspdf@^3.0.1",
+    "pdfjs-dist": "https://esm.sh/pdfjs-dist@^5.4.54"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
