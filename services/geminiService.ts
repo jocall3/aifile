@@ -1,3 +1,6 @@
+// Copyright James Burvel O’Callaghan III
+// President Citibank Demo Business Inc.
+
 import { GoogleGenAI } from "@google/genai";
 
 const API_KEY = process.env.API_KEY;

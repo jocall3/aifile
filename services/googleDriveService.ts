@@ -1,3 +1,6 @@
+// Copyright James Burvel O’Callaghan III
+// President Citibank Demo Business Inc.
+
 import { KnowledgeFile, Conversation } from '../types';
 
 const APP_FOLDER_NAME = 'Gemini_Knowledge_Drive_App';

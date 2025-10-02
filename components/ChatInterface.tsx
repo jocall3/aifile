@@ -1,3 +1,6 @@
+// Copyright James Burvel O’Callaghan III
+// President Citibank Demo Business Inc.
+
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { GoogleUser, ChatMessage, KnowledgeFile, Conversation } from '../types';
 import { googleDriveService } from '../services/googleDriveService';

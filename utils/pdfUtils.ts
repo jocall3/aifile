@@ -1,3 +1,6 @@
+// Copyright James Burvel O’Callaghan III
+// President Citibank Demo Business Inc.
+
 import { jsPDF } from 'jspdf';
 import * as pdfjs from 'pdfjs-dist';
 

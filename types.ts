@@ -1,3 +1,6 @@
+// Copyright James Burvel O’Callaghan III
+// President Citibank Demo Business Inc.
+
 export interface ChatMessage {
   id: string;
   role: 'user' | 'model';
